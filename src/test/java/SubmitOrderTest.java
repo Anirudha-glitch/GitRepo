@@ -38,7 +38,7 @@ public class SubmitOrderTest extends BaseTest {
 
          Boolean match = cp.Verifyroduct(input.get("productName"));
 
-       System.out.println("Welcome");
+      // System.out.println("Welcome");
 
 Assert.assertTrue(match);
 
